@@ -1,0 +1,13 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"ColdFusion",
+		"Emmet",
+		"Emmet Css Snippets",
+		"File Navigator",
+		"ImageMagick",
+		"Package Control",
+		"Pretty JSON"
+	]
+}

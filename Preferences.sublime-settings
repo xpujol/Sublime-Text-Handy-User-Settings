@@ -1,0 +1,25 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Xevi.tmTheme",
+	"folder_exclude_patterns":
+	[
+		"CFIDE",
+		"cfdocs",
+		".git"
+	],
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Emmet"
+	],
+	"ignored_words":
+	[
+		"comcar",
+		"subdomains"
+	],
+	"rulers":
+	[
+		80,
+		120
+	]
+}

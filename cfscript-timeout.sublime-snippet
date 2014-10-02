@@ -1,0 +1,8 @@
+<snippet>
+	<description>CF Script Request Timeout</description>
+	<content><![CDATA[
+createObject( "java", "coldfusion.tagext.lang.SettingTag" ).setRequestTimeout($1);	//Set request timeout for this operation to $1 seconds
+]]></content>
+	<tabTrigger>timeout</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

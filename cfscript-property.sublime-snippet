@@ -1,0 +1,8 @@
+<snippet>
+	<description>CF Script property</description>
+	<content><![CDATA[
+property name="$1" type="$2" default="$3" hint="$4";
+]]></content>
+	<tabTrigger>property</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<description>CF Script For loop</description>
+	<content><![CDATA[
+for( var i=1; i<=cnt$1; i++ ){
+	
+}
+]]></content>
+	<tabTrigger>for</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

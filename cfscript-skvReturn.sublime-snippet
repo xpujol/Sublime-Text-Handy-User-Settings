@@ -1,0 +1,13 @@
+<snippet>
+	<description>CF Script skvReturn</description>
+	<content><![CDATA[
+var skvReturn = {};
+skvReturn['success'] = false;
+skvReturn['msg'] = 'Failed to $1';
+
+skvReturn['success'] = true;
+skvReturn['msg'] = 'Successfully $1ed';
+]]></content>
+	<tabTrigger>skvReturn</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

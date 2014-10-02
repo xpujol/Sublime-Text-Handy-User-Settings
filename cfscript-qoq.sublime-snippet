@@ -1,0 +1,11 @@
+<snippet>
+	<description>CF Script query of queries</description>
+	<content><![CDATA[
+var qoq = new Query( dbType='query' );
+qoq.setAttributes(temp = previousQuery);
+qoq.setSQL("SELECT * FROM temp");
+var rst = qoq.execute().getResult();
+]]></content>
+	<tabTrigger>qoq</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<description>CF Script function with skvArgs</description>
+	<content><![CDATA[
+/**
+* Describe the function here
+*@skvArgs.foobar$1     Describe foobar$1 here
+*/
+function functionName(required struct skvArgs){
+	param name="ARGUMENTS.skvArgs.foobar$1" default="";
+
+	var foobar$1 = ARGUMENTS.skvArgs.foobar$1;
+}
+]]></content>
+	<tabTrigger>functionargs</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

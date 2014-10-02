@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+\$.ajax({
+	url: $0,
+	type: 'GET',
+	dataType: /* expected back from the server. Default: Intelligent Guess (xml, json, jsonp, script, html, text or multiple) */,
+	data: {
+		var1: val1,
+		var2: val2
+	},
+	success: function(data){
+	},
+	error: function(){
+	}
+});
+]]></content>
+    <tabTrigger>ajax</tabTrigger>
+    <scope>source.js</scope>
+    <description>jQuery Ajax</description>
+</snippet>

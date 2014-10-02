@@ -1,0 +1,8 @@
+<snippet>
+	<description>CF Tag cfdump tag</description>
+	<content><![CDATA[
+<cfdump var="#$1#">
+]]></content>
+	<tabTrigger>dump</tabTrigger>
+	<scope>text.html.cfm - string</scope>
+</snippet>

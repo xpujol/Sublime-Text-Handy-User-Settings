@@ -1,0 +1,8 @@
+<snippet>
+	<description>CF Script writedump</description>
+	<content><![CDATA[
+writeDump($1);
+]]></content>
+	<tabTrigger>dump</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<description>CF Content CSS tag</description>
+	<content><![CDATA[
+<cfcontent type="text/css">
+]]></content>
+	<tabTrigger>css.cfm</tabTrigger>
+	<scope>text.html.cfm - string</scope>
+</snippet>

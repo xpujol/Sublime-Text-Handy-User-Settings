@@ -1,0 +1,9 @@
+<snippet>
+	<description>CF Script addParam</description>
+	<content><![CDATA[
+qry.addParam( name="$1", value="#$2#", cfsqltype="cf_sql_varchar");
+qry.addParam( name="$3", value="#$4#", cfsqltype="cf_sql_integer");
+]]></content>
+	<tabTrigger>addParam</tabTrigger>
+	<scope>source.cfscript - string</scope>
+</snippet>
